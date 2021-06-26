@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Ubuntu:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: #3A6351;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2.7rem;
+    color: #fff;
+
+}
+.container{
+    width: 90%;
+    margin:0% 0% auto 5%;
+    display: inline-flex;
+}
+.card {
+    background-color: transparent;
+    width: 45%;
+    height: 450px;
+    padding: 2% 2%;
+    display: block;
+    margin: 1.5%;
+    background-color: #558776;
+    text-align: center;
+}
+.card h1{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 5px #b3a9b9;
+}
+.card button{
+    font-size: 1.5rem;
+    letter-spacing: 1.25px;
+    margin-top: 10%;
+    font-family: 'Ubuntu';
+    border: none;
+    border-radius: 5%;
+    font-weight: 200;
+    padding: 2% 7%;
+    color: #3A6351;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: #3A6351;
+    color: #fff;
+    border: solid #fff;
+}
+#img1{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.result{
+    height: 50px;
+}
+p{
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+}
+
+
+@media(max-width:1068px) {
+    body{
+        justify-content: center;
+        text-align: center;
+        background-color: #558776
+    }
+    nav{
+        margin: 0;
+        width: 100%;
+        height: 40px;
+        font-size: 1rem;
+        
+    }
+    .container{
+        padding: auto;
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0%;
+        margin-top: 5%;
+
+    }
+
+    .card img{
+        width: 50%;
+        height: 300px;
+        box-shadow: 1px 1px 5px #b3a9b9;
+    }
+
+
+
+
+    .card h1{
+        font-size: 1.2rem;
+    }
+    
+    .card button{
+        font-size: 1rem;
+        margin-top: 2%;
+        padding: 2% 4%;
+=    }
+    .result{
+        height: 50px;
+    }
+    p{
+        color: #fff;
+        font-size: 1.1rem;
+        font-family: 'Montserrat';
+    }
+    
+    
+}

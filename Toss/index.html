@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss</title>
+    <link rel="icon" href="coin2.png">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1049ebfbed.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <h1>Know the Winner <i class="fas fa-trophy"></i></h1>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <h1>Toss The Coin</h1>
+        <div class="result"><p id="coinDecision">Get the Result</p></div>
+        <img src="coin2.png" alt="" class="coin"><br>
+        <button onclick="toss()">TOSS</button>
+        
+      </div>
+
+
+      <div class="card">
+        <h1>Rock Paper Scissor</h1>
+        <div class="result"><p id="handDecision">Break the Ice</p></div>
+        <img src="hand2.png" alt="" id="img1" class="hand">
+        <img src="hand2.png" alt="" class="hand"><br>
+        <button onclick="roll()">PLAY</button>
+        <p></p>
+      </div>
+    </div>
+
+
+      
+    <script src="app.js"></script>
+</body>
+</html>
